@@ -1,3 +1,3 @@
-function mostrarNome(Nome){
+function mostrarNome(){
     console.log("Marvin");
 }
