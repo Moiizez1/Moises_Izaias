@@ -1,4 +1,6 @@
 function maiusculo(palavra){
-    return palavra.substring(0,3).toUpperCase();
+    grande=palavra.toUpperCase();
+    resto= palavra.substring(3);
+    return grande.substring(0,3)+resto;
+    
 }
-
