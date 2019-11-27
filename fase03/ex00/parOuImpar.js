@@ -1,9 +1,9 @@
-function parOuImpar(num){
+function parOuImpar(numero){
 
 if (num % 2 == 0) {
     return("Par");
     }
     else{
-        return("Õmpar");
+        return("√çmpar");
         }
     }
