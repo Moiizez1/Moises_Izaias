@@ -2,12 +2,14 @@ function nove(num){
   
       x=num.toString();
       final=x.charAt(x.length-1);
-
+      y = Boolean(true);
+      z = Boolean(false);
+      
 if (final==9){
-    return("true");
+    return y;
 }
 else{
-    return("false");
+    return z;
     }
 
 }
